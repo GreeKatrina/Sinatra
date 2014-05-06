@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tell us about your dog</title>
+</head>
+<body>
+  <h1>Please, tell us more about your dog:</h1>
+  <form action="/dog-registration-results">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+    </div>
+    <div>
+      <label for="species">species:</label>
+      <input type="text" id="species" name="species" />
+    </div>
+    <div>
+      <label for="fixed">Neutered or spayed?</label>
+      <input type="checkbox" id="fixed" name="fixed" />
+    </div>
+    <div>
+        <label for="haircolor">Hair color:</label>
+        <select name="haircolor">
+         <option value="brown">brown</option>
+         <option value="black">black</option>
+         <option value="white">white</option>
+         <option value="yellow">yellow</option>
+         <option value="grey">grey</option>
+       </select>
+    </div>
+    <div>
+      <input type="submit" value="Submit Info">
+    </div>
+  </form>
+</body>
+</html>

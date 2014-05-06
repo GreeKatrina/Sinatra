@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>Summary of User Information</title>
+</head>
+<body>
+  <strong>Name: <%= @name %></strong>
+  <p>Species: <%= @species %></p>
+  <% if @fixed %>
+    <p><%= @name %> is spayed/neutered</p>
+  <% end %>
+  <p>Hair color: <%= @haircolor %></p>
+</body>
+</html>
